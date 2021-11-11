@@ -1,0 +1,267 @@
+/* 100;200;300;400;600 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: boder-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  -primary--color: #c4c4c4;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  margin: 2em;
+  box-shadow: 0 0 16px #a89f9f;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 1em;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7f8497;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2d459b;
+}
+
+/*------------------------------------Real Styling------------------------- */
+
+header {
+  background: #c4c4c4;
+  /*starts from left   X Y  , X   Y,   X    Y,   X  Y  */
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75vh, 0% 100%);
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+header > .right,
+.left {
+  font-weight: 200;
+  text-transform: capitalize;
+  padding: 2em;
+  justify-self: left;
+}
+
+.right {
+  padding-right: 1em;
+  display: flex;
+}
+
+.right div {
+  padding-right: 2em;
+  text-transform: uppercase;
+}
+
+.hero {
+  position: absolute;
+  top: 20%;
+  left: 13.5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tagline {
+  font-weight: 600;
+  line-height: 1.8em;
+  font-size: 3em;
+  color: rgb(34, 33, 33);
+  margin-bottom: 9em;
+}
+
+button {
+  padding: 1em 3em;
+  border-radius: 2.5em;
+  background-color: #2d459b;
+  text-transform: uppercase;
+  border: none;
+}
+button a {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.5em;
+}
+
+button:hover {
+  background: #fff;
+  border: 2px solid #2d459b;
+  color: #000;
+}
+button:hover a {
+  color: #000;
+}
+.hero-image {
+  height: 18em;
+  margin-left: 7em;
+  box-shadow: 0 0 16px #a89f9f;
+  border-radius: 50%;
+}
+/* ------------------------------SKILLS------------------------------------ */
+.skills {
+  width: 9em;
+  height: 2em;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1em;
+  overflow: hidden;
+  background-color: #c4c4c4;
+}
+
+.box {
+  height: 15em;
+  width: 12em;
+  box-shadow: 0px 0px 0.2em #302828;
+  margin: 5em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  border-radius: 1em;
+}
+.box1 {
+  background: #7f8497;
+  width: 75vw;
+  margin: 2em auto;
+  display: flex;
+}
+.text {
+  margin: 1em 5em;
+  text-transform: uppercase;
+}
+.layer {
+  background: #fff;
+  width: 45vw;
+  height: 2em;
+  margin: auto;
+}
+.rate {
+  background: black;
+  height: 100%;
+  width: 35vw;
+}
+.rate2 {
+  width: 33vw;
+}
+.rate3 {
+  width: 30vw;
+}
+.rate4 {
+  width: 28vw;
+}
+/* ----------------------------WORK------------------------------ */
+
+#work {
+  background: #c4c4c4;
+  /*starts from left   X Y  , X   Y,   X    Y,   X  Y  */
+  clip-path: polygon(0% 15vh, 100% 0%, 100% 75vh, 0% 100%);
+  height: 95vh;
+  display: flex;
+}
+
+.project {
+  width: 9em;
+  height: 2em;
+  padding-top: 35.8em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1em;
+  overflow: hidden;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.card {
+  height: 50vh;
+  width: 15vw;
+  overflow: hidden;
+  margin: 7em 3em;
+  box-shadow: 0 0 0.7em rgb(139, 137, 137);
+  background: #fff;
+  border-radius: 2em;
+  word-break: break-all;
+  padding: 1em;
+}
+.screen img {
+  height: 20vh;
+  width: 20vh;
+}
+.desc {
+  margin-top: 5em;
+  font-size: 0.7em;
+}
+/* ------------------------Education------------------------------- */
+
+.edu {
+  width: 19em;
+  height: 2em;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1em;
+  overflow: hidden;
+  background-color: #c4c4c4;
+}
+.wrap {
+  display: flex;
+  margin-left: 5em;
+}
+.wrapper {
+  height: 50vh;
+  width: 15vw;
+  overflow: hidden;
+  margin: 7em 3em;
+  word-break: break-all;
+  padding: 1em;
+}
+/* ----------------------------CONTACT----------------------------------------- */
+#contact {
+  height: 50vh;
+  background: #c4c4c4;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  display: flex;
+}
+.contact {
+  background: #fff;
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+}
+
+.form-styled {
+  margin: 5em 8em;
+}
+.form-styled input {
+  margin: 1em;
+  width: 50vw;
+  border: none;
+  border-bottom: 1px solid #2d459b;
+  background-color: #c4c4c4;
+  outline: none;
+}
+.form-styled button {
+  height: 3em;
+  border-radius: 1em;
+  width: 100%;
+  overflow: hidden;
+}
