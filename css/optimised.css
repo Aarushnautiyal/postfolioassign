@@ -37,4 +37,7 @@
         font: 2px;
         margin: auto;
     }
+    .card{
+        height:60vh;
+    }
 }
