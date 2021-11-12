@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: boder-box;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 :root {
   -primary--color: #c4c4c4;
@@ -187,7 +188,9 @@ button:hover a {
   color: #000000;
   background-color: #ffffff;
 }
-
+.wrapping{
+  display: flex;
+}
 .card {
   height: 50vh;
   width: 15vw;
@@ -253,6 +256,16 @@ button:hover a {
 }
 .form-styled input {
   margin: 1em;
+  width: 50vw;
+  border: none;
+  border-bottom: 1px solid #2d459b;
+  background-color: #c4c4c4;
+  outline: none;
+}
+.form-styled textarea {
+  margin: 1em;
+  height: 8vh;
+  resize: none;
   width: 50vw;
   border: none;
   border-bottom: 1px solid #2d459b;
