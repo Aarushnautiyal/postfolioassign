@@ -5,9 +5,6 @@
     .right{
         display: none;
     }
-    .hero button{
-        display: none;
-    }
     .wrapping{
         flex-direction: column;
         margin:auto;
