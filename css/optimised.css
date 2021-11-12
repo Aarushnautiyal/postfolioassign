@@ -30,8 +30,8 @@
     body{
         margin: 0%;
     }
-    .tagline{
-        font-size: 2em;
+    .hero-image{
+        display: none;
     }
     .hero{
         overflow-x: hidden;
