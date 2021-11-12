@@ -25,16 +25,16 @@
 }
 @media (max-width: 1000px){
     .form-styled input{
-        width: 20vw;
+        width: 40vw;
     }
     .form-styled textarea{
-        width: 20vw;
+        width: 40vw;
     }
     .form-styled button{
-        width: 20vw;
+        width: 40vw;
     }
     button a{
-        font: 2px;
+        font: 2em;
         margin: auto;
     }
     .card{
