@@ -281,3 +281,33 @@ button:hover a {
   width: 100%;
   overflow: hidden;
 }
+
+.button {
+  height: 3em;
+  border-radius: 1em;
+  width: 100%;
+  overflow: hidden;
+  background-color:  #2d459b;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+.button a {
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.5em;
+}
+
+.button:hover {
+  background: #fff;
+  border: 2px solid  #2d459b;
+  color: #000;
+}
+.button:hover a {
+  color: #000;
+}

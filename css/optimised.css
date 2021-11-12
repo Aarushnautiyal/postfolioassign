@@ -38,13 +38,14 @@
         width: 25vw;
         margin: auto;
     }
-    .form-styled button{
+    .button{
         width: 25vw;
-        margin: auto;
+        margin: 2em auto;
     }
-    button a{
-        font: 2em;
-        margin: 800px auto;
+    .button a{
+        font-size: .8em;
+        font-weight: 400;
+        letter-spacing: 1;
     }
     .wrapping{
         flex-direction: column;
