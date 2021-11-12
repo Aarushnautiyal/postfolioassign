@@ -10,9 +10,12 @@
     }
     .wrapping{
         flex-direction: column;
+        margin:auto;
+
     }
     .card{
         height: 20vh;
+        margin: 5em;
     }
     .box1{
         flex-direction: column;
@@ -23,19 +26,23 @@
     }
 
 }
-@media (max-width: 1000px){
+@media (max-width: 600px){
     .form-styled input{
-        width: 40vw;
+        width: 25vw;
     }
     .form-styled textarea{
-        width: 40vw;
+        width: 25vw;
     }
     .form-styled button{
-        width: 40vw;
+        width: 25vw;
     }
     button a{
         font: 2em;
         margin: auto;
+    }
+    .wrapping{
+        flex-direction: column;
+        margin-top: 3em;
     }
     .card{
         height:60vh;
