@@ -33,10 +33,6 @@
     .hero-image{
         display: none;
     }
-    .hero{
-        overflow-x: hidden;
-        width: 50vw;
-    }
     .form-styled input{
         width: 25vw;
         margin: auto;
