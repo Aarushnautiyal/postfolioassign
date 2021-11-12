@@ -1,4 +1,7 @@
 @media (max-width: 1000px){
+    .body{
+        overflow-x: hidden;
+    }
     .right{
         display: none;
     }
@@ -21,9 +24,6 @@
 
 }
 @media (max-width: 1000px){
-    body{
-        margin: 0;
-    }
     .form-styled input{
         width: 20vw;
     }

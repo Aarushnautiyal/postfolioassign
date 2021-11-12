@@ -7,7 +7,8 @@
   scroll-behavior: smooth;
 }
 :root {
-  -primary--color: #c4c4c4;
+  --primary-color: #c4c4c4;
+  --secondary-color:  #2d459b;
 }
 a {
   text-decoration: none;
@@ -38,7 +39,7 @@ body {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #2d459b;
+  background: var(--secondary-color);
 }
 
 /*------------------------------------Real Styling------------------------- */
@@ -88,7 +89,7 @@ header > .right,
 button {
   padding: 1em 3em;
   border-radius: 2.5em;
-  background-color: #2d459b;
+  background-color:  #2d459b;
   text-transform: uppercase;
   border: none;
 }
@@ -100,7 +101,7 @@ button a {
 
 button:hover {
   background: #fff;
-  border: 2px solid #2d459b;
+  border: 2px solid  #2d459b;
   color: #000;
 }
 button:hover a {
@@ -259,7 +260,7 @@ button:hover a {
   margin-left: 2em;
   width: 50vw;
   border: none;
-  border-bottom: 1px solid #2d459b;
+  border-bottom: 1px solid  #2d459b;
   background-color: #c4c4c4;
   outline: none;
 }
@@ -270,7 +271,7 @@ button:hover a {
   resize: none;
   width: 50vw;
   border: none;
-  border-bottom: 1px solid #2d459b;
+  border-bottom: 1px solid  #2d459b;
   background-color: #c4c4c4;
   outline: none;
 }
