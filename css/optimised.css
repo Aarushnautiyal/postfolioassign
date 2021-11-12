@@ -27,18 +27,24 @@
 
 }
 @media (max-width: 600px){
+    body{
+        margin: 0%;
+    }
     .form-styled input{
         width: 25vw;
+        margin: auto;
     }
     .form-styled textarea{
         width: 25vw;
+        margin: auto;
     }
     .form-styled button{
         width: 25vw;
+        margin: auto;
     }
     button a{
         font: 2em;
-        margin: auto;
+        margin: 800px auto;
     }
     .wrapping{
         flex-direction: column;
