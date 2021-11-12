@@ -185,7 +185,6 @@ button:hover a {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1em;
-  overflow: hidden;
   color: #000000;
   background-color: #ffffff;
 }
@@ -221,7 +220,6 @@ button:hover a {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1em;
-  overflow: hidden;
   background-color: #c4c4c4;
 }
 .wrap {

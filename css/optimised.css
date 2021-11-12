@@ -56,6 +56,13 @@
     }
     .card{
         height:60vh;
-        width: 20vw;
+        width: 35vw;
+    }
+    .project{
+        font-size: 1em;
+        letter-spacing: 0;
+    }
+    .layer{
+        margin-bottom: 20px;
     }
 }
