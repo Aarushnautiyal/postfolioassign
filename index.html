@@ -27,6 +27,16 @@
                 <div><a href="#education">education</a></div>
                 <div><a href="#contact">contact</a></div>
         </div>
+        <div class="mob-nav" onclick="toggle()">
+            <img src="/images/menu-button-of-three-horizontal-lines.png" onclick="toggle()" alt="" srcset="">
+            <div class="disnav" id="none">
+                <div><a href="index.html">home</a></div>
+                <div><a href="#skills">skills</a></div>
+                <div><a href="#work">work</a></div>
+                <div><a href="#education">education</a></div>
+                <div><a href="#contact">contact</a></div>
+            </div>
+        </div>
         <div class="hero">
             <div class="tagline">
                 Hey There!
@@ -140,7 +150,14 @@
             </form>
         </div>
     </section>
-    
+    <script>
+        var navbar = document.getElementsByClassList("disnav");
+
+        const toggle = () => {
+            document.navbar.style.display = "block";
+        };
+
+</script>
     <script src="/script/interaction.js"></script>
 </body>
 </html>

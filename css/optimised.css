@@ -2,6 +2,25 @@
     .body{
         overflow-x: hidden;
     }
+    .mob-nav {
+        display: block;
+        position: relative;
+        margin: 2.3em;
+    }
+    .mob-nav img{
+        display: block;
+        height: 3vh;
+    }
+    .disnav{
+        background-color: #fff;
+        font-size: .6em;
+        padding: 1em;
+        text-transform: uppercase;
+        justify-content: center;
+        position: absolute;
+        top: 0%;
+        display: none;
+    }
     .right{
         display: none;
     }
