@@ -213,8 +213,8 @@ button:hover a {
 /* ------------------------Education------------------------------- */
 
 .edu {
-  width: 19em;
-  height: 2em;
+  width: 30vw;
+  height: 4vh;
   margin: auto;
   text-align: center;
   text-transform: uppercase;
@@ -229,9 +229,9 @@ button:hover a {
 }
 .wrapper {
   height: 50vh;
-  width: 15vw;
+  width: 50vw;
   overflow: hidden;
-  margin: 7em 3em;
+  margin: 1em 1em;
   word-break: break-all;
   padding: 1em;
 }
@@ -256,6 +256,7 @@ button:hover a {
 }
 .form-styled input {
   margin: 1em;
+  margin-left: 2em;
   width: 50vw;
   border: none;
   border-bottom: 1px solid #2d459b;
@@ -264,6 +265,7 @@ button:hover a {
 }
 .form-styled textarea {
   margin: 1em;
+  margin-left: 2em;
   height: 8vh;
   resize: none;
   width: 50vw;
